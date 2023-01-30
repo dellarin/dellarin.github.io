@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.topper {
+    background-color: #ECEB98;
+    text-align: center;
+    padding: 10px;
+}
+.topl1 {
+    margin-top: 7px;
+}
+.topl1, .topl2 {
+    margin-bottom: 7px;
+}
+.bold {
+    font-weight: bold;
+}
+body{
+    font-family: montserrat;
+}
+header img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    position: absolute;
+    width: 150px;
+}
+header{
+    background: white;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+header ul{
+    float: left;
+    margin-right: 20px;
+}
+header ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+
+}
+button{
+    background-color: white;
+    text-decoration-color: black;
+
+}
+.navv{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 18px;
+}
+p{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.table_section{
+    height: 650px;
+    overflow: auto;
+}
+table{
+    width: 70%;
+    table-layout: fixed;
+    min-width: 70px;
+border-collapse: collapse;
+}
+thead th{
+    position: sticky;
+    background-color: bisque;
+
+    color: black;
+    font-size: 20px;
+}
+th,td{
+    border-bottom: 3px solid white;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: bisque
+}
+td{
+    font-size: 15px;
+    font-weight: bold;
+}
+span{
+    display: grid;
+    justify-content: center;
+}
+.ins{
+    display: grid;
+    justify-content: center;
+}
+button{
+    background-color: black;
+    color: white;
+}
+footer li{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 18px;
+    background-color: black;
+    color: whitesmoke;
+}
